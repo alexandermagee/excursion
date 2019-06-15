@@ -1,6 +1,7 @@
 * {
     background-color: black;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*h1 {
@@ -19,7 +20,7 @@ a {
     height: 2000px;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 3fr 1fr 3fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr 3fr 1fr 0.5fr;
     grid-template-areas: 
     "mainTitle"
     "mainVideo"
@@ -29,6 +30,37 @@ a {
     "footer";
 }
 
+h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+h2 {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+h5 {
+    color: grey;
+}
+
+a {
+    color: aquamarine;
+}
+
+.video {
+    height: auto;
+    width: auto;
+}
+
 .cell {
     border: solid blue;
 }
+
+#copyright {
+    position: absolute;
+    left: 90%;
+}
+
