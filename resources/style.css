@@ -16,8 +16,8 @@ a {
 */
 
 .container {
-    border: solid red;
     height: 2000px;
+    width: 100%;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 3fr 1fr 3fr 1fr 0.5fr;
@@ -56,7 +56,7 @@ a {
 }
 
 .cell {
-    border: solid blue;
+
 }
 
 #copyright {
